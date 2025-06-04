@@ -1,0 +1,32 @@
+{
+    "name": "finedux",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://FINEDUX@dev.azure.com/FINEDUX/FINEDUX/_git/FINEDUX"
+    },
+    "license": "ISC",
+    "author": "Daviel Sanchez",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "concurrently \"nodemon index.js\""
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "finedux": "file:",
+        "jsonwebtoken": "^9.0.2",
+        "morgan": "^1.10.0",
+        "pg": "^8.16.0",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.37.7",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
